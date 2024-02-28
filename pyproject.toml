@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "p1"
+version = "0.1.0"
+description = ""
+authors = ["Sebas Vasquez <gatorebeldes@gmail.com>"]
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
