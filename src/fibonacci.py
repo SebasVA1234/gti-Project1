@@ -9,3 +9,4 @@ if __name__ == "__main__":
     k = int(input("Give me a positive number: "))
     h = k - 1
     print(fibonacci(h))
+
